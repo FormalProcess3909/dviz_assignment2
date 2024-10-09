@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dviz_assignment2/static/css/main.aff15756.css",
+    "main.js": "/dviz_assignment2/static/js/main.7b0248a0.js",
+    "index.html": "/dviz_assignment2/index.html",
+    "main.aff15756.css.map": "/dviz_assignment2/static/css/main.aff15756.css.map",
+    "main.7b0248a0.js.map": "/dviz_assignment2/static/js/main.7b0248a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aff15756.css",
+    "static/js/main.7b0248a0.js"
+  ]
+}
