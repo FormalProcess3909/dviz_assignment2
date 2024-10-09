@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Skills extends Component {
     render() {
-        return(
+        return (
             <div className="fourth_container">
                 <div className="section_name">
                     <p>{this.props.key_skills.section_title}</p>

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class WorkExperience extends Component {
     render() {
-        return(
+        return (
             <div className="third_container">
                 <div className="section_name">
                     <p>{this.props.work_experience.section_title}</p>

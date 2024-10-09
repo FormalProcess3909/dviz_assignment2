@@ -1,5 +1,5 @@
 .main_container {
-  margin-top: 20px;
+  margin-top: 0;
 }
 
 .header_container {
@@ -8,12 +8,15 @@
   align-items: center;
   background-color: aliceblue;
   border-bottom: solid gold 5px;
-  padding: 15px 30px;
+  padding: 15px 40px;
+  padding-bottom: 70px;
 }
 
 .info p {
   margin-left: 40px;
+  line-height: .5;
 }
+
 /* Common styles applicable to all screen sizes */
 
 .second_container,
@@ -48,7 +51,7 @@
   list-style-type: none;
   padding: 10px;
   margin: 0;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .skills_list li {
@@ -74,56 +77,56 @@ ul {
 /* Desktops and laptops */
 @media only screen and (min-width: 1224px) {
   .name_job {
-      font-size: 38px;
+    font-size: 38px;
   }
 
   .info p {
-      font-size: 15px;
+    font-size: 15px;
   }
 
   .section_name {
-      width: 220px;
-      font-size: 25px;
+    width: 220px;
+    font-size: 25px;
   }
 
   .section_content {
-      font-size: 25px;
+    font-size: 25px;
   }
 
   .skills_list li {
-      line-height: 0.5;
+    line-height: 0.5;
   }
 
   .fifth_container ul li {
-      font-size: 20px;
+    font-size: 20px;
   }
 }
 
 /* Large screens */
 @media only screen and (min-width: 1824px) {
   .name_job {
-      font-size: 48px;
+    font-size: 48px;
   }
 
   .info p {
-      font-size: 25px;
-      padding-right: 25px;
+    font-size: 25px;
+    padding-right: 25px;
   }
 
   .section_name {
-      width: 300px;
-      font-size: 40px;
+    width: 300px;
+    font-size: 30px;
   }
 
   .section_content {
-      font-size: 40px;
+    font-size: 30px;
   }
 
   .skills_list li {
-      line-height: 0.5;
+    line-height: 0.5;
   }
 
   .fifth_container ul li {
-      font-size: 40px;
+    font-size: 30px;
   }
 }

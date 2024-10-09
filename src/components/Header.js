@@ -8,7 +8,7 @@ class Header extends Component {
           <p><b>{this.props.header_info.name}</b><br />{this.props.header_info.job_title}</p>
         </div>
         <div className="info">
-          <p>Email: {this.props.header_info.email}</p>
+          <p>Email: <a href="malto:{this.props.header_info.email}">{this.props.header_info.email}</a></p>
           <p>Website: {this.props.header_info.website}</p>
           <p>Phone: {this.props.header_info.phone_num}</p>
         </div>

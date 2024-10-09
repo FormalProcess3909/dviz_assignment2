@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
 class Education extends Component {
-    render () {
-        return(
+    render() {
+        return (
             <div className="fifth_container">
                 <div className="section_name">
-                <p>{this.props.education.section_title}</p>
+                    <p>{this.props.education.section_title}</p>
                 </div>
                 <div className="section_content">
                     <ul>
@@ -15,7 +15,7 @@ class Education extends Component {
                         <li>GPA: {this.props.education.gpa1}</li>
                     </ul>
                     <ul>
-                    <li><b>{this.props.education.college2}</b></li>
+                        <li><b>{this.props.education.college2}</b></li>
                         <li>{this.props.education.degree2} in {this.props.education.major2}</li>
                         <li>{this.props.education.start_date2} - {this.props.education.end_date2}</li>
                         <li>GPA: {this.props.education.gpa2}</li>
